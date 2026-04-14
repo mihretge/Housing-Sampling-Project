@@ -13,7 +13,7 @@ library(readxl)
 library(dplyr)
 
 # Load data
-data <- read_excel("C:/Users/mihre/OneDrive/Documents/Housing prices in major Canadian cities.xlsx")
+data <- read.csv("housing prices canada.csv")
 
 # Keep only valid observations
 data <- data %>%
